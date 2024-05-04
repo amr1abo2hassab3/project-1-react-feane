@@ -1,0 +1,26 @@
+.landing {
+    width: 100%;
+    height: calc(100vh - 98px);
+    background-image: url("../../media/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.landing h1 {
+    font-family: var(--font_dancing);
+    margin-bottom: 15px;
+    font-size: 56px;
+}
+
+button {
+    margin: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e69c00 !important;
+}

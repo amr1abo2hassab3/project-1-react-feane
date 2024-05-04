@@ -1,13 +1,24 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font_dancing: 'Dancing Script';
+  --btn_color: #ffbe33;
+  --dark_color: #222831;
+}
+
+.btn_main {
+  width: 160px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: var(--btn_color);
+  color: white;
+  border: none;
+  margin-left: 15px;
+  font-size: 18px;
 }

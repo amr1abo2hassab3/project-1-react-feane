@@ -1,0 +1,127 @@
+.sec3 {
+    margin-top: 80px;
+}
+
+.sec3 .header_sec3 h2 {
+    font-family: var(--font_dancing);
+    font-size: 40px;
+}
+
+.form_sec3 form div {
+    max-width: 100%;
+    height: 50px;
+    margin: 25px 0;
+}
+
+.form_sec3 form div input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 18px;
+}
+
+.btn_sec3 button {
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: var(--btn_color);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+
+
+.map_sec3 {
+    max-width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+
+.map_sec3 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* end section 3 form   */
+
+/* start section 4 */
+.sec4 {
+    margin: 80px 0;
+}
+
+.sec4 .header_sec4 {
+    margin-bottom: 40px;
+}
+
+.sec4 .header_sec4 h2 {
+    text-align: center;
+    font-family: var(--font_dancing);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.all_sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.all_sec4 .text_sec4 {
+    max-width: 100%;
+    background-color: var(--dark_color);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.img_sec4 {
+    width: 115px;
+    height: 115px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 5px var(--btn_color);
+}
+
+.text_sec4 p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.text_sec4 h5 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.img_sec4 img {
+    width: 100%;
+}
+
+.left_and_right_sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.arrow_sec4 {
+    width: 45px;
+    height: 45px;
+    background-color: var(--btn_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
